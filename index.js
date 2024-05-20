@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
-const token = '7153015577:AAEhjDVrSmEFcSApuvFZMJW_zlo3eClXi7g';
+const token = '';
 const bot = new TelegramBot(token, {polling: true}) ;
 const webAppurl = 'https://vvxc.netlify.app/'
 const app = express();
